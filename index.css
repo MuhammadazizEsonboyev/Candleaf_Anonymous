@@ -10,9 +10,42 @@ body{
 }
 
 
+ul,li{
+    list-style: none;
+}
+
 /* --------------- navbar start -------------- */
 
 
+.navbarls{
+padding: 25px 100px;
+}
+.navbar_list{
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar_list li{
+    margin-top: 7px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #272727
+}
+
+.circle{
+    text-align: end;
+    font-size: 20px;    
+}
+
+
+.fa-cart-shopping{
+    margin-left: 30px;
+}
 
 
 
