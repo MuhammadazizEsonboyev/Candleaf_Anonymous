@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -18,7 +19,7 @@ ul,li{
 
 
 .navbarls{
-padding: 25px 100px;
+padding: 25px ;
 }
 .navbar_list{
     margin-left: 130px;
@@ -49,3 +50,62 @@ color: #272727
 
 
 /* --------------- navbar end -------------- */
+
+
+
+
+/* ------------header start--------- */
+
+
+
+header {
+    background-image: url(./img/Header-background.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 170px ;
+}
+
+.header_button {
+    background-color: #56B280;
+    height: 40px;
+    width: 310px;
+    left: 565px;
+    top: 496px;
+    border-radius: 4px;
+    padding: 5px 44px 6px 44px;
+    border: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.header_top_text span {
+    display: block;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.design {
+    margin: 170px 300px;
+    background-color: #F7F8FACC;
+    text-align: center;
+    padding: 30px 90px 60px;
+
+
+}
+
+.header_text {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 17px 0px 40px;
+}
+
+/* ------------header end--------- */
+
